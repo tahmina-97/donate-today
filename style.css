@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Manrope&family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* ###################### header section styling ###################### */
+
+#header{
+    position: relative;
+    height: 105vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,3)), url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ .header-content{
+    text-align: center;
+    padding: 175px 307px;
+    color: #ffffff;
+    /* width: 60%; */
+
+}
+.header-content h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+.header-content p{
+    width: 60%;
+    margin: 30px auto;
+    
+
+
+}
+
+.poppins-regular{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.btn-primary{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 16px 12px;
+    background-color: #FF5959;
+    border-radius: 5px;
+
+}
+
+
+

@@ -102,6 +102,7 @@
     width: 136px;
     line-height: 123px ;
     background-color: #FAFAFA;
+    border: none;
     border-radius: 5px;
     margin: 20px 11px;
     text-align: center;
@@ -117,7 +118,9 @@
 #donate .send-donation{
     text-align: center;
 }
-.send-donation h6{
+.send-donation input{
+    border: none;
+    outline: none;
     color: #B3B3B3;
     margin-top: 30px;
     padding: 8px 0;

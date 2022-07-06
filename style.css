@@ -31,6 +31,11 @@
     font-weight: 700;
 }
 
+.st-style{
+    width: 50%;
+    margin: 20px auto;
+    color: #707070;
+}
 .btn-primary{
     display: inline-block;
     text-decoration: none;
@@ -44,10 +49,11 @@
 }
 
 
+
 /* ###################### header section styling ###################### */
 #header{
     position: relative;
-    height: 105vh;
+    height: 110vh;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,3)), url(images/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,11 +84,11 @@
 #donate{
     margin-bottom: 130px;
 }
-#donate p{
-    width: 40%;
+/* #donate>p{
+    width: 50%;
     margin: 20px auto;
     color: #707070;
-}
+} */
 
 .donation-amount{
     display: flex;
@@ -125,13 +131,13 @@
 
 /* ###################### donate-plan section styling ###################### */
 
-#donate-plan>p{
-    width: 40%;
+/* #donate-plan>p{
+    width: 50%;
     margin: 20px auto;
     color: #707070;
-}
+} */
 
-.plan-container{
+#donate-plan .plan-container{
     display: flex;
     justify-content: center;
 }
@@ -147,7 +153,7 @@
 .plan-container .box{
     width: 352px;
     height: 356px;
-    margin: 20px 10px;
+    margin: 20px 10px 0 10px;
     border-radius: 5px;
     padding: 50px 20px;
 }
@@ -171,6 +177,71 @@
     color: #707070;
     padding: 10px 0;
 }
+
+#donate-plan{
+    margin-bottom: 130px;
+}
+
+/* ###################### Update section styling ###################### */
+
+.update-box{
+    width: 60%;
+    height: 200px;
+    margin: 30px auto 130px auto;
+    padding: 76px;
+    background-color: #FFF4D6;
+    text-align: center;
+}
+
+.update-box input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+.update-box input[type=email]{
+    width: 257px;
+    height: 48px;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+}
+.email-box{
+    padding-left: 15px;
+}
+
+.update-box input[type=button]{
+    width: 157px;
+    height: 48px;
+    background-color: #FF5959;
+    color: #ffffff;
+    margin-left: -5px;
+}
+
+/* ###################### footer section styling ###################### */
+
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FF5959;
+    padding: 40px 0 20px 0;
+}
+
+footer p{
+    font-family: 'Manrope', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: #D9DBE1;
+}
+
+
 
 
 

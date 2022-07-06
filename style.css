@@ -180,9 +180,57 @@
 
 #donate-plan{
     margin-bottom: 130px;
+  
+}
+/* ###################### Activities section styling ###################### */
+#activities{
+    margin-bottom: 130px;
 }
 
+.image-wrapper{
+    background-color: #fff7f7; 
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.image-container{
+    width: 28.333%;
+    margin: 30px 15px;
+}
+.image-container img{
+
+    display: block;
+    width: 100%;
+    height: 280px;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-radius: 5;
+
+}
+.image-content h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #121212;
+    padding-top: 25px;
+}
+
+.image-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+    color: #707070;
+    padding: 10px 0;
+}
+    
+   
 /* ###################### Update section styling ###################### */
+
 
 .update-box{
     width: 60%;

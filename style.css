@@ -111,12 +111,10 @@
 #donate .send-donation{
     text-align: center;
 }
-.send-donation input{
+.send-donation h6{
     color: #B3B3B3;
-    border-style: none;
     margin-top: 30px;
     padding: 8px 0;
-    outline: none;
 }
 .send-donation hr{
     width: 50%;

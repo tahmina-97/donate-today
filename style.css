@@ -125,7 +125,52 @@
 
 /* ###################### donate-plan section styling ###################### */
 
+#donate-plan>p{
+    width: 40%;
+    margin: 20px auto;
+    color: #707070;
+}
 
+.plan-container{
+    display: flex;
+    justify-content: center;
+}
+#food{
+    background-color: rgb(78, 158, 166, .10);
+}
+#shelter{
+    background-color: rgb(255, 89, 89,.10) ;
+}
+#education{
+    background-color: #FFF4D6;
+}
+.plan-container .box{
+    width: 352px;
+    height: 356px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    padding: 50px 20px;
+}
+
+.box img{
+    padding: 10px 0;
+}
+.box .box-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    padding: 12px 0;
+}
+
+.box .box-content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #707070;
+    padding: 10px 0;
+}
 
 
 

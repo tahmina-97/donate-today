@@ -14,45 +14,21 @@
     font-family: 'Roboto', sans-serif;
 } */
 
-/* ###################### header section styling ###################### */
+/* ##################### utility classes ###################### */
 
-#header{
-    position: relative;
-    height: 105vh;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,3)), url(images/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
- .header-content{
-    text-align: center;
-    padding: 175px 307px;
-    color: #ffffff;
-    /* width: 60%; */
-
-}
-.header-content h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 65px;
-    font-weight: 700;
-}
-
-
-.header-content p{
-    width: 60%;
-    margin: 30px auto;
-    
-
-
-}
-
-.poppins-regular{
+.small-text{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    text-align: center;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+}
 
+.large-text{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .btn-primary{
@@ -65,8 +41,92 @@
     padding: 16px 12px;
     background-color: #FF5959;
     border-radius: 5px;
+}
+
+
+/* ###################### header section styling ###################### */
+#header{
+    position: relative;
+    height: 105vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,3)), url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 130px;
+}
+
+ .header-content{
+    text-align: center;
+    padding: 175px 307px;
+    color: #ffffff;
 
 }
+.header-content h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+ .header-content p{
+    width: 60%;
+    margin: 30px auto;
+ } 
+
+ /* ###################### donate section styling ###################### */
+
+#donate{
+    margin-bottom: 130px;
+}
+#donate p{
+    width: 40%;
+    margin: 20px auto;
+    color: #707070;
+}
+
+.donation-amount{
+    display: flex;
+    justify-content: center;
+}
+
+.donation-amount .box{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 136px;
+    line-height: 123px ;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    margin: 20px 11px;
+    text-align: center;
+
+}
+
+.donation-amount .selected-box{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+#donate .send-donation{
+    text-align: center;
+}
+.send-donation h6{
+    color: #B3B3B3;
+    margin-top: 30px;
+    padding: 8px 0;
+}
+.send-donation hr{
+    width: 50%;
+    margin: 0 auto 30px auto;
+
+
+}
+
+/* ###################### donate-plan section styling ###################### */
+
+
+
 
 
 

@@ -208,7 +208,7 @@
     object-fit: cover;
     object-position: center;
     overflow: hidden;
-    border-radius: 5;
+    border-radius: 5px;
 
 }
 .image-content h2{
